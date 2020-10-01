@@ -2,7 +2,7 @@
 
 (require zeromq)
 
-(printf "Connectin to hello world server...\n")
+(printf "Connecting to hello world server...\n")
 (define requester (zmq-socket 'req #:connect "tcp://localhost:5555"))
 
 (for ([n (in-range 1 10)])
