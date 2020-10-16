@@ -2,7 +2,7 @@
 
 (provide log_info)
 
-(require "ansi-display.rkt"
+(require ansi-display
          (for-syntax racket/list))
 
 (define (log_info-fn #:loc loc fmt . args)
